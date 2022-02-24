@@ -18,8 +18,9 @@ SODA Installer provides easy installation and basic deployment based on specific
 [View Project Code](https://github.com/sodafoundation/installer) | [Installer Issues](https://github.com/sodafoundation/installer/issues) | [Installer PRs](https://github.com/sodafoundation/installer/pulls) | [Documentation](https://docs.sodafoundation.io)
 
 ### Configurator
-Project Short Description  
-[View Project Code](#) | [Issues](#) | [PRs](#) | [Documentation](#)
+Configurator is a version control and a sync service that keeps Kubernetes ConfigMaps and Secrets in sync with the deployments. As and when a change is detected in a ConfigMap, Configurator automatically generates a new custom resource called CustomConfigMap (CCM) with a postfix and copies the latest contents of the ConfigMap in to the CCM. A CCM with a post fix acts like a version for a ConfigMap. Configurator supports syncing the ConfigMap contents for both rolling updates and rollback of deployments. Configurator works seamlessly with GitOps workflows.
+
+[View Project Code](https://github.com/gopaddle-io/configurator) | [Issues](https://github.com/gopaddle-io/configurator/issues) | [Documentation](https://github.com/gopaddle-io/configurator/wiki)
 
 ### Cortx
 Project Short Description  
